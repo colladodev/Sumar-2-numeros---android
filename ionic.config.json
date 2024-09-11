@@ -1,0 +1,7 @@
+{
+  "name": "SumaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
