@@ -4,7 +4,7 @@ import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule } from '@angular/forms'; // Importa FormsModule
+import { FormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [AppComponent],
@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms'; // Importa FormsModule
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    FormsModule, // Asegúrate de agregar FormsModule aquí
+    FormsModule, 
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],

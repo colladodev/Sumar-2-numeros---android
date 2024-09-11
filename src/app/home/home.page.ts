@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  num1: number = 0;  // Inicializa con un valor predeterminado
-  num2: number = 0;  // Inicializa con un valor predeterminado
+  num1: number = 0; 
+  num2: number = 0; 
   resultado: number | null = null;
 
   constructor() {}
